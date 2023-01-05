@@ -1,0 +1,52 @@
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --rust: #B55A30;
+    --butter: #EFE1CE;
+    --willow: #9A8B4F;
+    --Biscay: #56C6A9;
+    --Cinnamon: #9C4722;
+    --GrapeCompote: #6B5876;
+    --boxshadow: 0px 20px 24px 3px rgba(139, 82, 6, 0.42);
+    
+    --Eclipse: #3e3a53;
+
+
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+
+.button{
+  border-radius: 34px;
+  border: none;
+  color: var(--butter);
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(180deg, #B55A30 26.71%, #9C4722 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(139, 82, 6, 0.42);
+}
+
+.button:hover{
+  background: #f8df8e;
+  cursor: pointer;
+  color: var(--black);
+  font-weight: bold;
+  border: 1px solid #F0EAD6;
+  box-shadow: 0px 15px 20px 2px #ddbab1;
+  
+
+}
+
